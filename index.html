@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socialee - Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Josefin+Slab&family=Kurale&family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <!-- Background -->
+  <img src="background.png" alt="Background" class="bg-img" />
+
+  <!-- Heart Icon -->
+  <img src="heart.png" alt="Heart" class="heart-img" />
+
+  <!-- Title -->
+  <h1 class="title">Socialee</h1>
+
+  <!-- Decorative Top Image -->
+  <img src="cud.png" alt="Decorative" class="cud-img" />
+
+  <div class="input-wrapper user-wrapper">
+    <img src="box.png" class="input-img" alt="Box Background" />
+    <img src="user.png" class="icon" alt="User Icon" />
+    <input type="text" id="username" class="input-field" placeholder="Username" />
+  </div>
+  
+  <div class="input-wrapper pass-wrapper">
+    <img src="box.png" class="input-img" alt="Box Background" />
+    <img src="unlock.png" class="icon" alt="Unlock Icon" />
+    <input type="password" id="password" class="input-field" placeholder="Password" />
+  </div>
+  <!-- Error Message -->
+  <p id="error-msg" class="error-msg" style="display: none;">Please fill in both Username and Password!</p>
+
+  <!-- Login Button -->
+  <a href="#" id="loginBtn" class="login-btn">LOGIN</a>
+
+  <!-- Forgot Password Link -->
+  <a href="forgot-password.html" class="forgot-link">Forgot Password?</a>
+
+  <!-- Signup Link -->
+  <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
